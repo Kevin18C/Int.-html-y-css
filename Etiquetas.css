@@ -1,0 +1,172 @@
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.logo {
+  width: 20%;
+  height: 20%;
+}
+nav {
+  background-color: #00ffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Ancla {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+  color: #fff;
+}
+.section1 {
+  border-radius: 10px;
+  padding: 20px;
+  background-image: url(sea-164989_640.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.presentacion {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.container {
+  margin: 40px auto;
+  width: 90%;
+  display: flex;
+  text-align: center;
+}
+
+.columna {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px lightgray;
+}
+.button {
+  background: salmon;
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.button:hover {
+  background: red;
+}
+.precio {
+  font-size: 30px;
+  color: #00ffff;
+}
+img {
+  width: 70%;
+  height: 30%;
+  border-radius: 20px;
+}
+.Nosotros {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.divnosotros {
+  width: 60%;
+}
+.divnosotros2{
+  background-image: url(playa2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  border-radius: 10px;
+}
+.Form {
+  margin: 50px;
+}
+.formulario {
+  margin-left: 195px;
+  width: 60%;
+  margin-bottom: 30px;
+  background-color: rgb(51, 51, 51, 0.602);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+input {
+  width: 70%;
+  text-align: center;
+  margin: 30px;
+  padding: 10px 10px;
+  border-bottom: #fff;
+  border: none;
+}
+.btn {
+  background: #00ffff;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+footer {
+  background: #2980b9; 
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); 
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); 
+
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Ancla {
+    width: 30%;
+    text-align: center;
+  }
+  header {
+    flex-direction: column;
+  }
+  .logo {
+    height: 40%;
+    width: 40%;
+    margin-left: 175px;
+  }
+  .formulario {
+    margin-left: 105px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .container {
+    flex-direction: column;
+  }
+  .paris{
+    width: 60%;
+    height: 300px
+  }
+}
